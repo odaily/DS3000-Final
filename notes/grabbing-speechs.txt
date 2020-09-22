@@ -1,0 +1,4 @@
+-choose president to filter by
+-list => browser.find_elements_by_xpath("//span[@class='field-content']/a")
+-on each thing in the list, do x.get_attribute("href") to get hyperlink to next bit
+-get request on that link
