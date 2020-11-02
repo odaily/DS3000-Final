@@ -1,0 +1,1 @@
+(function(t){'use strict';t.fn.visible=function(i){var e=t(this),o=t(window),s=o.scrollTop(),u=s+o.height(),n=e.offset().top,r=n+e.height(),f=i===!0?r:n,h=i===!0?n:r;return((h<=u)&&(f>=s))}})(jQuery);

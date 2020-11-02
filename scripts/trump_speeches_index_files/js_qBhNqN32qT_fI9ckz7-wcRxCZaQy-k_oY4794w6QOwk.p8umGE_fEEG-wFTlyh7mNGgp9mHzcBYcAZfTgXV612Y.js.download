@@ -1,0 +1,1 @@
+(function(i){i.behaviors.responsiveImageAJAX={attach:function(){if(window.picturefill){window.picturefill()}}}})(Drupal);

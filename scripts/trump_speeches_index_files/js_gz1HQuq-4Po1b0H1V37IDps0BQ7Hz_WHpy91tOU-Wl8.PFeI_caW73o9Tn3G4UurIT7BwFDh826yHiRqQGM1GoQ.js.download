@@ -1,0 +1,1 @@
+(function(t,s){'use strict';Drupal.behaviors.shareThis={attach:function(t){if(typeof stLight!=='undefined'){stLight.options(s.sharethis)};stButtons.locateElements()}}})(jQuery,drupalSettings);
