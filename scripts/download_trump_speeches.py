@@ -22,8 +22,28 @@ hrefs = []
 for hyperlink in wanted_links:
     hrefs.append(hyperlink.attrib['href'])
 
+index = 0
 for link in hrefs:
     r = requests.get(link)
-    soup = r.text
+    r.encoding = 'utf-8'
+    page = html.fromstring(r.content)
+    transcript_tag = page.xpath('//div[@class="transcript-inner"]')[0]
+    paras = transcript_tag.xpath('./p/text()')
+    transcript = '\n'.join(paras)
+
+    title = date_titles[index]
+    colon = title.index(":")
+    date = title[:colon]
+    speech_title = title[colon+2:]
+
+    speech_index = f"{index:3}".replace(' ', '0')
+    file_name = f"trump_speeches_{speech_index}.txt"
+    f = open(f'trump/{file_name}', 'w+', encoding='utf-8')
+    f.write(f'<title="{speech_title}">\n')
+    f.write(f'<date="{date}">\n')
+    f.write(transcript)
+    f.close()
+    index += 1
+
 print(hrefs)
 
