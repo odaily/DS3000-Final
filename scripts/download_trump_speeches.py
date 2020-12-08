@@ -29,6 +29,12 @@ for link in hrefs:
     page = html.fromstring(r.content)
     transcript_tag = page.xpath('//div[@class="transcript-inner"]')[0]
     paras = transcript_tag.xpath('./p/text()')
+    # Stupid exception because of ONE speech
+    # https://millercenter.org/the-presidency/presidential-speeches/february-5-2019-state-union-address
+    # Stores transcript within a <main> within the transcript-inner
+    # The only one that does this ._.
+    if len(paras) == 0:
+        paras = transcript_tag.xpath('./main/p/text()')
     transcript = '\n'.join(paras)
 
     title = date_titles[index]
