@@ -1,2 +1,0 @@
-hello
-this new line\n\n\nhello!
