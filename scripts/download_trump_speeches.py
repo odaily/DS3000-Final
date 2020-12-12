@@ -35,6 +35,7 @@ for link in hrefs:
     # The only one that does this ._.
     if len(paras) == 0:
         paras = transcript_tag.xpath('./main/p/text()')
+    paras = [p for p in paras if not p.startswith("AUDIENCE")]
     transcript = '\n'.join(paras)
 
     title = date_titles[index]
