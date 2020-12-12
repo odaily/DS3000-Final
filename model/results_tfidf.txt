@@ -1,3 +1,295 @@
+Political Party
+df=2, stops=None, ngram_range=(1, 1)
+train=0.6398929049531459
+testt=0.532
+df=2, stops=None, ngram_range=(1, 2)
+train=0.4886211512717537
+testt=0.404
+df=2, stops=None, ngram_range=(2, 2)
+train=0.6211512717536813
+testt=0.488
+df=2, stops=None, ngram_range=(1, 3)
+train=0.4149933065595716
+testt=0.348
+df=2, stops=None, ngram_range=(2, 3)
+train=0.6506024096385542
+testt=0.504
+df=2, stops=None, ngram_range=(3, 3)
+train=0.8340026773761714
+testt=0.748
+df=2, stops=english, ngram_range=(1, 1)
+train=0.7657295850066934
+testt=0.692
+df=2, stops=english, ngram_range=(1, 2)
+train=0.7617135207496654
+testt=0.716
+df=2, stops=english, ngram_range=(2, 2)
+train=0.8393574297188755
+testt=0.764
+df=2, stops=english, ngram_range=(1, 3)
+train=0.7643908969210174
+testt=0.72
+df=2, stops=english, ngram_range=(2, 3)
+train=0.8487282463186078
+testt=0.72
+df=2, stops=english, ngram_range=(3, 3)
+train=0.821954484605087
+testt=0.648
+df=3, stops=None, ngram_range=(1, 1)
+train=0.6492637215528781
+testt=0.54
+df=3, stops=None, ngram_range=(1, 2)
+train=0.5180722891566265
+testt=0.436
+df=3, stops=None, ngram_range=(2, 2)
+train=0.6358768406961178
+testt=0.504
+df=3, stops=None, ngram_range=(1, 3)
+train=0.4578313253012048
+testt=0.4
+df=3, stops=None, ngram_range=(2, 3)
+train=0.6546184738955824
+testt=0.544
+df=3, stops=None, ngram_range=(3, 3)
+train=0.8179384203480589
+testt=0.756
+df=3, stops=english, ngram_range=(1, 1)
+train=0.7643908969210174
+testt=0.7
+df=3, stops=english, ngram_range=(1, 2)
+train=0.7684069611780455
+testt=0.708
+df=3, stops=english, ngram_range=(2, 2)
+train=0.8232931726907631
+testt=0.716
+df=3, stops=english, ngram_range=(1, 3)
+train=0.7710843373493976
+testt=0.712
+df=3, stops=english, ngram_range=(2, 3)
+train=0.8340026773761714
+testt=0.72
+df=3, stops=english, ngram_range=(3, 3)
+train=0.2891566265060241
+testt=0.176
+df=4, stops=None, ngram_range=(1, 1)
+train=0.6586345381526104
+testt=0.54
+df=4, stops=None, ngram_range=(1, 2)
+train=0.535475234270415
+testt=0.464
+df=4, stops=None, ngram_range=(2, 2)
+train=0.643908969210174
+testt=0.504
+df=4, stops=None, ngram_range=(1, 3)
+train=0.4966532797858099
+testt=0.428
+df=4, stops=None, ngram_range=(2, 3)
+train=0.6666666666666666
+testt=0.548
+df=4, stops=None, ngram_range=(3, 3)
+train=0.8058902275769746
+testt=0.752
+df=4, stops=english, ngram_range=(1, 1)
+train=0.7670682730923695
+testt=0.696
+df=4, stops=english, ngram_range=(1, 2)
+train=0.7764390896921017
+testt=0.708
+df=4, stops=english, ngram_range=(2, 2)
+train=0.8232931726907631
+testt=0.724
+df=4, stops=english, ngram_range=(1, 3)
+train=0.785809906291834
+testt=0.708
+df=4, stops=english, ngram_range=(2, 3)
+train=0.8232931726907631
+testt=0.704
+df=4, stops=english, ngram_range=(3, 3)
+train=0.3172690763052209
+testt=0.2
+df=5, stops=None, ngram_range=(1, 1)
+train=0.6653279785809906
+testt=0.54
+df=5, stops=None, ngram_range=(1, 2)
+train=0.5515394912985274
+testt=0.476
+df=5, stops=None, ngram_range=(2, 2)
+train=0.643908969210174
+testt=0.524
+df=5, stops=None, ngram_range=(1, 3)
+train=0.5153949129852744
+testt=0.44
+df=5, stops=None, ngram_range=(2, 3)
+train=0.6666666666666666
+testt=0.548
+df=5, stops=None, ngram_range=(3, 3)
+train=0.8085676037483266
+testt=0.732
+df=5, stops=english, ngram_range=(1, 1)
+train=0.7670682730923695
+testt=0.704
+df=5, stops=english, ngram_range=(1, 2)
+train=0.7724230254350736
+testt=0.708
+df=5, stops=english, ngram_range=(2, 2)
+train=0.821954484605087
+testt=0.708
+df=5, stops=english, ngram_range=(1, 3)
+train=0.784471218206158
+testt=0.724
+df=5, stops=english, ngram_range=(2, 3)
+train=0.8179384203480589
+testt=0.688
+df=5, stops=english, ngram_range=(3, 3)
+train=0.27710843373493976
+testt=0.192
+
+President
+df=2, stops=None, ngram_range=(1, 1)
+train=0.6131191432396251
+testt=0.424
+df=2, stops=None, ngram_range=(1, 2)
+train=0.4390896921017403
+testt=0.28
+df=2, stops=None, ngram_range=(2, 2)
+train=0.5756358768406962
+testt=0.356
+df=2, stops=None, ngram_range=(1, 3)
+train=0.35207496653279785
+testt=0.228
+df=2, stops=None, ngram_range=(2, 3)
+train=0.6024096385542169
+testt=0.36
+df=2, stops=None, ngram_range=(3, 3)
+train=0.8072289156626506
+testt=0.64
+df=2, stops=english, ngram_range=(1, 1)
+train=0.7536813922356091
+testt=0.528
+df=2, stops=english, ngram_range=(1, 2)
+train=0.7536813922356091
+testt=0.544
+df=2, stops=english, ngram_range=(2, 2)
+train=0.8232931726907631
+testt=0.624
+df=2, stops=english, ngram_range=(1, 3)
+train=0.7536813922356091
+testt=0.552
+df=2, stops=english, ngram_range=(2, 3)
+train=0.820615796519411
+testt=0.604
+df=2, stops=english, ngram_range=(3, 3)
+train=0.7978580990629184
+testt=0.48
+df=3, stops=None, ngram_range=(1, 1)
+train=0.6184738955823293
+testt=0.428
+df=3, stops=None, ngram_range=(1, 2)
+train=0.46987951807228917
+testt=0.292
+df=3, stops=None, ngram_range=(2, 2)
+train=0.5783132530120482
+testt=0.348
+df=3, stops=None, ngram_range=(1, 3)
+train=0.40829986613119146
+testt=0.244
+df=3, stops=None, ngram_range=(2, 3)
+train=0.607764390896921
+testt=0.372
+df=3, stops=None, ngram_range=(3, 3)
+train=0.7898259705488622
+testt=0.572
+df=3, stops=english, ngram_range=(1, 1)
+train=0.7483266398929049
+testt=0.524
+df=3, stops=english, ngram_range=(1, 2)
+train=0.751004016064257
+testt=0.556
+df=3, stops=english, ngram_range=(2, 2)
+train=0.8018741633199464
+testt=0.604
+df=3, stops=english, ngram_range=(1, 3)
+train=0.751004016064257
+testt=0.54
+df=3, stops=english, ngram_range=(2, 3)
+train=0.8125836680053548
+testt=0.608
+df=3, stops=english, ngram_range=(3, 3)
+train=0.13386880856760375
+testt=0.048
+df=4, stops=None, ngram_range=(1, 1)
+train=0.6184738955823293
+testt=0.44
+df=4, stops=None, ngram_range=(1, 2)
+train=0.4819277108433735
+testt=0.312
+df=4, stops=None, ngram_range=(2, 2)
+train=0.5903614457831325
+testt=0.36
+df=4, stops=None, ngram_range=(1, 3)
+train=0.43775100401606426
+testt=0.26
+df=4, stops=None, ngram_range=(2, 3)
+train=0.606425702811245
+testt=0.396
+df=4, stops=None, ngram_range=(3, 3)
+train=0.7804551539491299
+testt=0.56
+df=4, stops=english, ngram_range=(1, 1)
+train=0.7523427041499331
+testt=0.54
+df=4, stops=english, ngram_range=(1, 2)
+train=0.7523427041499331
+testt=0.552
+df=4, stops=english, ngram_range=(2, 2)
+train=0.8045515394912985
+testt=0.572
+df=4, stops=english, ngram_range=(1, 3)
+train=0.7576974564926372
+testt=0.536
+df=4, stops=english, ngram_range=(2, 3)
+train=0.8045515394912985
+testt=0.568
+df=4, stops=english, ngram_range=(3, 3)
+train=0.3119143239625167
+testt=0.072
+df=5, stops=None, ngram_range=(1, 1)
+train=0.6198125836680054
+testt=0.44
+df=5, stops=None, ngram_range=(1, 2)
+train=0.5060240963855421
+testt=0.324
+df=5, stops=None, ngram_range=(2, 2)
+train=0.5890227576974565
+testt=0.376
+df=5, stops=None, ngram_range=(1, 3)
+train=0.45113788487282463
+testt=0.28
+df=5, stops=None, ngram_range=(2, 3)
+train=0.6117804551539491
+testt=0.408
+df=5, stops=None, ngram_range=(3, 3)
+train=0.7724230254350736
+testt=0.56
+df=5, stops=english, ngram_range=(1, 1)
+train=0.7469879518072289
+testt=0.544
+df=5, stops=english, ngram_range=(1, 2)
+train=0.7550200803212851
+testt=0.548
+df=5, stops=english, ngram_range=(2, 2)
+train=0.785809906291834
+testt=0.548
+df=5, stops=english, ngram_range=(1, 3)
+train=0.7536813922356091
+testt=0.548
+df=5, stops=english, ngram_range=(2, 3)
+train=0.7751004016064257
+testt=0.556
+df=5, stops=english, ngram_range=(3, 3)
+train=0.250334672021419
+testt=0.068
+
 Time Period
 df=2, stops=None, ngram_range=(1, 1)
 train=0.6639892904953146
