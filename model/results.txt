@@ -1,549 +1,678 @@
 Political Party models:
 	Using Count Vectorizer as vect:
 		Gaussian Naive Bayes:
-			Train acc: 0.9839357429718876
-			Test  acc: 0.592
+			Train acc: 0.9852744310575636
+			Test  acc: 0.624
 		MultinomialNB:
-			Train acc: 0.8714859437751004
-			Test  acc: 0.72
+			Train acc: 0.8808567603748326
+			Test  acc: 0.68
 		k-Nearest Neighbor:
-			Train acc: 0.6198125836680054
-			Test  acc: 0.428
+			Train acc: 0.6305220883534136
+			Test  acc: 0.472
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.5
+			Test  acc: 0.504
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+		Logistic Regression:
+			Train acc: 0.9892904953145917
+			Test  acc: 0.716
 	Using TFIDF Vectorizer as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.588
+			Test  acc: 0.644
 		MultinomialNB:
-			Train acc: 0.39759036144578314
-			Test  acc: 0.288
+			Train acc: 0.3453815261044177
+			Test  acc: 0.32
 		k-Nearest Neighbor:
-			Train acc: 0.6224899598393574
-			Test  acc: 0.516
+			Train acc: 0.6546184738955824
+			Test  acc: 0.584
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.444
+			Test  acc: 0.46
+		Logistic Regression:
+			Train acc: 0.6720214190093708
+			Test  acc: 0.52
 	Using TFIDF Vectorizer w/ min_df=2 as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.584
+			Test  acc: 0.56
 		MultinomialNB:
-			Train acc: 0.4149933065595716
-			Test  acc: 0.392
+			Train acc: 0.4685408299866131
+			Test  acc: 0.352
 		k-Nearest Neighbor:
-			Train acc: 0.6345381526104418
-			Test  acc: 0.5
+			Train acc: 0.6666666666666666
+			Test  acc: 0.532
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.444
+			Test  acc: 0.484
+		Logistic Regression:
+			Train acc: 0.678714859437751
+			Test  acc: 0.54
 	Using TFIDF Vectorizer w/ min_df=5 as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.54
+			Test  acc: 0.524
 		MultinomialNB:
-			Train acc: 0.40562248995983935
-			Test  acc: 0.412
+			Train acc: 0.4390896921017403
+			Test  acc: 0.376
 		k-Nearest Neighbor:
-			Train acc: 0.6854082998661312
-			Test  acc: 0.56
+			Train acc: 0.6760374832663989
+			Test  acc: 0.556
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.476
+			Test  acc: 0.46
+		Logistic Regression:
+			Train acc: 0.7001338688085676
+			Test  acc: 0.536
 	Using TFIDF Vectorizer w/ min_df=2, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.6
+			Test  acc: 0.568
 		MultinomialNB:
-			Train acc: 0.5796519410977242
-			Test  acc: 0.416
+			Train acc: 0.5983935742971888
+			Test  acc: 0.516
 		k-Nearest Neighbor:
-			Train acc: 0.7925033467202142
-			Test  acc: 0.732
+			Train acc: 0.7911646586345381
+			Test  acc: 0.676
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.388
+			Test  acc: 0.48
+		Logistic Regression:
+			Train acc: 0.8781793842034806
+			Test  acc: 0.692
 	Using TFIDF Vectorizer w/ min_df=5, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.576
+		MultinomialNB:
+			Train acc: 0.678714859437751
+			Test  acc: 0.46
+		k-Nearest Neighbor:
+			Train acc: 0.8152610441767069
+			Test  acc: 0.688
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.452
+		Logistic Regression:
+			Train acc: 0.8714859437751004
+			Test  acc: 0.716
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.62
+		MultinomialNB:
+			Train acc: 0.4203480589022758
+			Test  acc: 0.348
+		k-Nearest Neighbor:
+			Train acc: 0.5220883534136547
+			Test  acc: 0.4
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.468
+		Logistic Regression:
+			Train acc: 0.7590361445783133
+			Test  acc: 0.58
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.624
+		MultinomialNB:
+			Train acc: 0.4564926372155288
+			Test  acc: 0.38
+		k-Nearest Neighbor:
+			Train acc: 0.5113788487282463
+			Test  acc: 0.42
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.48
+		Logistic Regression:
+			Train acc: 0.7951807228915663
+			Test  acc: 0.58
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5 as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
 			Test  acc: 0.608
 		MultinomialNB:
-			Train acc: 0.7014725568942436
-			Test  acc: 0.556
+			Train acc: 0.41633199464524767
+			Test  acc: 0.372
 		k-Nearest Neighbor:
-			Train acc: 0.7965194109772423
-			Test  acc: 0.684
+			Train acc: 0.5595716198125836
+			Test  acc: 0.436
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.444
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2 as vect:
+			Test  acc: 0.472
+		Logistic Regression:
+			Train acc: 0.7617135207496654
+			Test  acc: 0.596
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.516
+		MultinomialNB:
+			Train acc: 0.40160642570281124
+			Test  acc: 0.336
+		k-Nearest Neighbor:
+			Train acc: 0.5756358768406962
+			Test  acc: 0.5
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.364
+		Logistic Regression:
+			Train acc: 0.7469879518072289
+			Test  acc: 0.556
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.68
+		MultinomialNB:
+			Train acc: 0.6171352074966533
+			Test  acc: 0.38
+		k-Nearest Neighbor:
+			Train acc: 0.8032128514056225
+			Test  acc: 0.644
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.488
+		Logistic Regression:
+			Train acc: 0.8862115127175368
+			Test  acc: 0.66
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.64
+		MultinomialNB:
+			Train acc: 0.5930388219544847
+			Test  acc: 0.392
+		k-Nearest Neighbor:
+			Train acc: 0.7777777777777778
+			Test  acc: 0.608
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.42
+		Logistic Regression:
+			Train acc: 0.8995983935742972
+			Test  acc: 0.672
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
 			Test  acc: 0.56
 		MultinomialNB:
-			Train acc: 0.464524765729585
-			Test  acc: 0.352
+			Train acc: 0.6546184738955824
+			Test  acc: 0.472
 		k-Nearest Neighbor:
-			Train acc: 0.47121820615796517
-			Test  acc: 0.444
+			Train acc: 0.7817938420348058
+			Test  acc: 0.684
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.436
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2 as vect:
+			Test  acc: 0.432
+		Logistic Regression:
+			Train acc: 0.8875502008032129
+			Test  acc: 0.732
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.6
+			Test  acc: 0.58
 		MultinomialNB:
-			Train acc: 0.48728246318607765
-			Test  acc: 0.344
+			Train acc: 0.6305220883534136
+			Test  acc: 0.496
 		k-Nearest Neighbor:
-			Train acc: 0.49531459170013387
-			Test  acc: 0.348
+			Train acc: 0.7898259705488622
+			Test  acc: 0.712
 		Decision Tree:
 			Train acc: 1.0
 			Test  acc: 0.456
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5 as vect:
+		Logistic Regression:
+			Train acc: 0.8942436412315931
+			Test  acc: 0.66
+President models:
+	Using Count Vectorizer as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.48
+			Test  acc: 0.456
 		MultinomialNB:
-			Train acc: 0.46184738955823296
-			Test  acc: 0.4
+			Train acc: 0.8888888888888888
+			Test  acc: 0.532
 		k-Nearest Neighbor:
-			Train acc: 0.5836680053547524
-			Test  acc: 0.46
+			Train acc: 0.5287817938420348
+			Test  acc: 0.264
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.408
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5 as vect:
+			Test  acc: 0.344
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+		Logistic Regression:
+			Train acc: 0.9879518072289156
+			Test  acc: 0.644
+	Using TFIDF Vectorizer as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.564
+			Test  acc: 0.488
 		MultinomialNB:
-			Train acc: 0.5247657295850067
-			Test  acc: 0.424
+			Train acc: 0.09504685408299866
+			Test  acc: 0.072
 		k-Nearest Neighbor:
-			Train acc: 0.5676037483266398
+			Train acc: 0.6224899598393574
+			Test  acc: 0.38
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.348
+		Logistic Regression:
+			Train acc: 0.5515394912985274
+			Test  acc: 0.4
+	Using TFIDF Vectorizer w/ min_df=2 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.456
+		MultinomialNB:
+			Train acc: 0.13119143239625167
+			Test  acc: 0.088
+		k-Nearest Neighbor:
+			Train acc: 0.5876840696117804
+			Test  acc: 0.376
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.312
+		Logistic Regression:
+			Train acc: 0.5127175368139224
+			Test  acc: 0.356
+	Using TFIDF Vectorizer w/ min_df=5 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.42
+		MultinomialNB:
+			Train acc: 0.17670682730923695
+			Test  acc: 0.14
+		k-Nearest Neighbor:
+			Train acc: 0.6251673360107095
 			Test  acc: 0.472
 		Decision Tree:
 			Train acc: 1.0
+			Test  acc: 0.356
+		Logistic Regression:
+			Train acc: 0.5220883534136547
+			Test  acc: 0.344
+	Using TFIDF Vectorizer w/ min_df=2, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.54
+		MultinomialNB:
+			Train acc: 0.48728246318607765
+			Test  acc: 0.22
+		k-Nearest Neighbor:
+			Train acc: 0.7376171352074966
+			Test  acc: 0.584
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.34
+		Logistic Regression:
+			Train acc: 0.8005354752342704
+			Test  acc: 0.492
+	Using TFIDF Vectorizer w/ min_df=5, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.376
+		MultinomialNB:
+			Train acc: 0.5542168674698795
+			Test  acc: 0.296
+		k-Nearest Neighbor:
+			Train acc: 0.7309236947791165
+			Test  acc: 0.548
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.38
+		Logistic Regression:
+			Train acc: 0.8085676037483266
+			Test  acc: 0.544
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.556
+		MultinomialNB:
+			Train acc: 0.21552878179384202
+			Test  acc: 0.152
+		k-Nearest Neighbor:
+			Train acc: 0.3895582329317269
+			Test  acc: 0.272
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.34
+		Logistic Regression:
+			Train acc: 0.643908969210174
+			Test  acc: 0.372
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
 			Test  acc: 0.508
+		MultinomialNB:
+			Train acc: 0.18206157965194109
+			Test  acc: 0.088
+		k-Nearest Neighbor:
+			Train acc: 0.3828647925033467
+			Test  acc: 0.22
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.356
+		Logistic Regression:
+			Train acc: 0.6305220883534136
+			Test  acc: 0.32
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.396
+		MultinomialNB:
+			Train acc: 0.16733601070950468
+			Test  acc: 0.088
+		k-Nearest Neighbor:
+			Train acc: 0.4685408299866131
+			Test  acc: 0.316
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.324
+		Logistic Regression:
+			Train acc: 0.607764390896921
+			Test  acc: 0.312
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.436
+		MultinomialNB:
+			Train acc: 0.23427041499330656
+			Test  acc: 0.14
+		k-Nearest Neighbor:
+			Train acc: 0.48460508701472554
+			Test  acc: 0.304
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.292
+		Logistic Regression:
+			Train acc: 0.5997322623828648
+			Test  acc: 0.392
 	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.604
+			Test  acc: 0.56
 		MultinomialNB:
-			Train acc: 0.6760374832663989
-			Test  acc: 0.476
+			Train acc: 0.570281124497992
+			Test  acc: 0.224
 		k-Nearest Neighbor:
-			Train acc: 0.785809906291834
-			Test  acc: 0.656
+			Train acc: 0.7710843373493976
+			Test  acc: 0.536
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.452
+			Test  acc: 0.356
+		Logistic Regression:
+			Train acc: 0.8366800535475234
+			Test  acc: 0.44
 	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
 			Test  acc: 0.624
 		MultinomialNB:
-			Train acc: 0.6452476572958501
-			Test  acc: 0.52
+			Train acc: 0.6398929049531459
+			Test  acc: 0.244
 		k-Nearest Neighbor:
-			Train acc: 0.7831325301204819
-			Test  acc: 0.68
+			Train acc: 0.7376171352074966
+			Test  acc: 0.54
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.464
+			Test  acc: 0.308
+		Logistic Regression:
+			Train acc: 0.8340026773761714
+			Test  acc: 0.46
 	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.524
+			Test  acc: 0.52
 		MultinomialNB:
-			Train acc: 0.6251673360107095
-			Test  acc: 0.496
+			Train acc: 0.6479250334672021
+			Test  acc: 0.3
 		k-Nearest Neighbor:
-			Train acc: 0.7991967871485943
-			Test  acc: 0.704
+			Train acc: 0.7269076305220884
+			Test  acc: 0.608
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.4
+			Test  acc: 0.356
+		Logistic Regression:
+			Train acc: 0.8326639892904953
+			Test  acc: 0.46
 	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.532
+			Test  acc: 0.488
 		MultinomialNB:
-			Train acc: 0.6506024096385542
-			Test  acc: 0.508
-		k-Nearest Neighbor:
-			Train acc: 0.820615796519411
-			Test  acc: 0.604
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.444
-President models:
-	Using Count Vectorizer as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.468
-		MultinomialNB:
-			Train acc: 0.9143239625167336
-			Test  acc: 0.548
-		k-Nearest Neighbor:
-			Train acc: 0.5287817938420348
-			Test  acc: 0.24
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.304
-	Using TFIDF Vectorizer as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.524
-		MultinomialNB:
-			Train acc: 0.10977242302543508
-			Test  acc: 0.096
-		k-Nearest Neighbor:
-			Train acc: 0.6010709504685409
-			Test  acc: 0.444
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.324
-	Using TFIDF Vectorizer w/ min_df=2 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.484
-		MultinomialNB:
-			Train acc: 0.14190093708165996
-			Test  acc: 0.096
-		k-Nearest Neighbor:
-			Train acc: 0.606425702811245
-			Test  acc: 0.38
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.3
-	Using TFIDF Vectorizer w/ min_df=5 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.46
-		MultinomialNB:
-			Train acc: 0.11646586345381527
-			Test  acc: 0.088
-		k-Nearest Neighbor:
-			Train acc: 0.5930388219544847
-			Test  acc: 0.42
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.364
-	Using TFIDF Vectorizer w/ min_df=2, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.452
-		MultinomialNB:
-			Train acc: 0.4497991967871486
-			Test  acc: 0.196
+			Train acc: 0.6412315930388219
+			Test  acc: 0.348
 		k-Nearest Neighbor:
 			Train acc: 0.7429718875502008
 			Test  acc: 0.576
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.292
-	Using TFIDF Vectorizer w/ min_df=5, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.436
-		MultinomialNB:
-			Train acc: 0.5756358768406962
-			Test  acc: 0.296
-		k-Nearest Neighbor:
-			Train acc: 0.7483266398929049
-			Test  acc: 0.544
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.344
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.48
-		MultinomialNB:
-			Train acc: 0.1713520749665328
-			Test  acc: 0.08
-		k-Nearest Neighbor:
-			Train acc: 0.39759036144578314
-			Test  acc: 0.272
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.348
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.468
-		MultinomialNB:
-			Train acc: 0.20615796519410978
-			Test  acc: 0.128
-		k-Nearest Neighbor:
-			Train acc: 0.4069611780455154
-			Test  acc: 0.22
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.364
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.432
-		MultinomialNB:
-			Train acc: 0.21285140562248997
-			Test  acc: 0.136
-		k-Nearest Neighbor:
-			Train acc: 0.45515394912985274
 			Test  acc: 0.328
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.312
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.472
-		MultinomialNB:
-			Train acc: 0.17938420348058903
-			Test  acc: 0.124
-		k-Nearest Neighbor:
-			Train acc: 0.5020080321285141
-			Test  acc: 0.272
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.36
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.56
-		MultinomialNB:
-			Train acc: 0.5742971887550201
-			Test  acc: 0.252
-		k-Nearest Neighbor:
-			Train acc: 0.7215528781793842
-			Test  acc: 0.54
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.332
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.572
-		MultinomialNB:
-			Train acc: 0.5180722891566265
-			Test  acc: 0.148
-		k-Nearest Neighbor:
-			Train acc: 0.751004016064257
-			Test  acc: 0.576
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.34
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.484
-		MultinomialNB:
-			Train acc: 0.5194109772423026
-			Test  acc: 0.204
-		k-Nearest Neighbor:
-			Train acc: 0.7309236947791165
-			Test  acc: 0.628
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.348
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.528
-		MultinomialNB:
-			Train acc: 0.6104417670682731
-			Test  acc: 0.336
-		k-Nearest Neighbor:
-			Train acc: 0.7255689424364123
-			Test  acc: 0.596
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.372
+		Logistic Regression:
+			Train acc: 0.821954484605087
+			Test  acc: 0.48
 Time Period models:
 	Using Count Vectorizer as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.712
+			Test  acc: 0.62
 		MultinomialNB:
-			Train acc: 0.9558232931726908
-			Test  acc: 0.764
+			Train acc: 0.9464524765729585
+			Test  acc: 0.74
 		k-Nearest Neighbor:
 			Train acc: 0.5943775100401606
-			Test  acc: 0.432
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.476
-	Using TFIDF Vectorizer as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.632
-		MultinomialNB:
-			Train acc: 0.19410977242302543
-			Test  acc: 0.156
-		k-Nearest Neighbor:
-			Train acc: 0.6840696117804551
-			Test  acc: 0.524
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.508
-	Using TFIDF Vectorizer w/ min_df=2 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.608
-		MultinomialNB:
-			Train acc: 0.24096385542168675
-			Test  acc: 0.244
-		k-Nearest Neighbor:
-			Train acc: 0.6653279785809906
-			Test  acc: 0.532
+			Test  acc: 0.408
 		Decision Tree:
 			Train acc: 1.0
 			Test  acc: 0.468
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+		Logistic Regression:
+			Train acc: 0.9933065595716198
+			Test  acc: 0.708
+	Using TFIDF Vectorizer as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.672
+		MultinomialNB:
+			Train acc: 0.19812583668005354
+			Test  acc: 0.168
+		k-Nearest Neighbor:
+			Train acc: 0.6452476572958501
+			Test  acc: 0.552
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.48
+		Logistic Regression:
+			Train acc: 0.6934404283801874
+			Test  acc: 0.604
+	Using TFIDF Vectorizer w/ min_df=2 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.604
+		MultinomialNB:
+			Train acc: 0.24230254350736277
+			Test  acc: 0.196
+		k-Nearest Neighbor:
+			Train acc: 0.6760374832663989
+			Test  acc: 0.54
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.468
+		Logistic Regression:
+			Train acc: 0.7215528781793842
+			Test  acc: 0.532
 	Using TFIDF Vectorizer w/ min_df=5 as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.656
+			Test  acc: 0.576
 		MultinomialNB:
-			Train acc: 0.23427041499330656
-			Test  acc: 0.204
+			Train acc: 0.2101740294511379
+			Test  acc: 0.184
 		k-Nearest Neighbor:
-			Train acc: 0.6746987951807228
-			Test  acc: 0.548
+			Train acc: 0.6706827309236948
+			Test  acc: 0.624
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.488
+			Test  acc: 0.404
+		Logistic Regression:
+			Train acc: 0.714859437751004
+			Test  acc: 0.628
 	Using TFIDF Vectorizer w/ min_df=2, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.656
+			Test  acc: 0.624
 		MultinomialNB:
-			Train acc: 0.5234270414993306
-			Test  acc: 0.312
+			Train acc: 0.6613119143239625
+			Test  acc: 0.504
 		k-Nearest Neighbor:
-			Train acc: 0.8152610441767069
-			Test  acc: 0.772
+			Train acc: 0.8139223560910308
+			Test  acc: 0.764
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.496
+			Test  acc: 0.552
+		Logistic Regression:
+			Train acc: 0.9370816599732262
+			Test  acc: 0.72
 	Using TFIDF Vectorizer w/ min_df=5, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.66
+			Test  acc: 0.596
 		MultinomialNB:
-			Train acc: 0.6760374832663989
-			Test  acc: 0.476
+			Train acc: 0.6599732262382865
+			Test  acc: 0.436
 		k-Nearest Neighbor:
-			Train acc: 0.8340026773761714
-			Test  acc: 0.712
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.532
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.72
-		MultinomialNB:
-			Train acc: 0.26506024096385544
-			Test  acc: 0.216
-		k-Nearest Neighbor:
-			Train acc: 0.47925033467202144
-			Test  acc: 0.38
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.396
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.652
-		MultinomialNB:
-			Train acc: 0.2744310575635877
-			Test  acc: 0.184
-		k-Nearest Neighbor:
-			Train acc: 0.4538152610441767
-			Test  acc: 0.38
+			Train acc: 0.8487282463186078
+			Test  acc: 0.704
 		Decision Tree:
 			Train acc: 1.0
 			Test  acc: 0.452
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5 as vect:
+		Logistic Regression:
+			Train acc: 0.9156626506024096
+			Test  acc: 0.676
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2 as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.68
+			Test  acc: 0.716
 		MultinomialNB:
-			Train acc: 0.26238286479250333
-			Test  acc: 0.188
+			Train acc: 0.31057563587684067
+			Test  acc: 0.208
 		k-Nearest Neighbor:
-			Train acc: 0.5528781793842035
-			Test  acc: 0.472
+			Train acc: 0.4926372155287818
+			Test  acc: 0.34
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.488
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5 as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.608
-		MultinomialNB:
-			Train acc: 0.3078982597054886
-			Test  acc: 0.264
-		k-Nearest Neighbor:
-			Train acc: 0.5582329317269076
-			Test  acc: 0.396
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.528
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.7
-		MultinomialNB:
-			Train acc: 0.6987951807228916
-			Test  acc: 0.408
-		k-Nearest Neighbor:
-			Train acc: 0.8433734939759037
-			Test  acc: 0.708
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.564
-	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2, StopWords as vect:
-		Gaussian Naive Bayes:
-			Train acc: 1.0
-			Test  acc: 0.668
-		MultinomialNB:
-			Train acc: 0.678714859437751
-			Test  acc: 0.392
-		k-Nearest Neighbor:
-			Train acc: 0.8380187416331994
-			Test  acc: 0.708
-		Decision Tree:
-			Train acc: 1.0
-			Test  acc: 0.472
-	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5, StopWords as vect:
+			Test  acc: 0.504
+		Logistic Regression:
+			Train acc: 0.8018741633199464
+			Test  acc: 0.58
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2 as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
 			Test  acc: 0.684
 		MultinomialNB:
-			Train acc: 0.6653279785809906
-			Test  acc: 0.44
+			Train acc: 0.3507362784471218
+			Test  acc: 0.22
 		k-Nearest Neighbor:
-			Train acc: 0.8447121820615796
-			Test  acc: 0.716
+			Train acc: 0.4979919678714859
+			Test  acc: 0.364
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.376
+			Test  acc: 0.48
+		Logistic Regression:
+			Train acc: 0.7951807228915663
+			Test  acc: 0.572
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.608
+		MultinomialNB:
+			Train acc: 0.3293172690763052
+			Test  acc: 0.224
+		k-Nearest Neighbor:
+			Train acc: 0.5502008032128514
+			Test  acc: 0.412
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.492
+		Logistic Regression:
+			Train acc: 0.7898259705488622
+			Test  acc: 0.58
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5 as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.62
+		MultinomialNB:
+			Train acc: 0.3119143239625167
+			Test  acc: 0.256
+		k-Nearest Neighbor:
+			Train acc: 0.5448460508701473
+			Test  acc: 0.436
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.468
+		Logistic Regression:
+			Train acc: 0.7938420348058902
+			Test  acc: 0.552
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=2, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.72
+		MultinomialNB:
+			Train acc: 0.6760374832663989
+			Test  acc: 0.396
+		k-Nearest Neighbor:
+			Train acc: 0.8259705488621151
+			Test  acc: 0.752
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.468
+		Logistic Regression:
+			Train acc: 0.9544846050870147
+			Test  acc: 0.624
+	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=2, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.736
+		MultinomialNB:
+			Train acc: 0.6331994645247657
+			Test  acc: 0.34
+		k-Nearest Neighbor:
+			Train acc: 0.8072289156626506
+			Test  acc: 0.708
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.48
+		Logistic Regression:
+			Train acc: 0.9504685408299867
+			Test  acc: 0.716
+	Using TFIDF Vectorizer w/ ngrams=(1,2), min_df=5, StopWords as vect:
+		Gaussian Naive Bayes:
+			Train acc: 1.0
+			Test  acc: 0.652
+		MultinomialNB:
+			Train acc: 0.6921017402945113
+			Test  acc: 0.5
+		k-Nearest Neighbor:
+			Train acc: 0.8393574297188755
+			Test  acc: 0.696
+		Decision Tree:
+			Train acc: 1.0
+			Test  acc: 0.444
+		Logistic Regression:
+			Train acc: 0.9424364123159303
+			Test  acc: 0.688
 	Using TFIDF Vectorizer w/ ngrams=(1,3), min_df=5, StopWords as vect:
 		Gaussian Naive Bayes:
 			Train acc: 1.0
-			Test  acc: 0.68
+			Test  acc: 0.648
 		MultinomialNB:
-			Train acc: 0.6680053547523427
-			Test  acc: 0.436
+			Train acc: 0.7161981258366801
+			Test  acc: 0.528
 		k-Nearest Neighbor:
-			Train acc: 0.8273092369477911
-			Test  acc: 0.72
+			Train acc: 0.8299866131191432
+			Test  acc: 0.76
 		Decision Tree:
 			Train acc: 1.0
-			Test  acc: 0.508
+			Test  acc: 0.512
+		Logistic Regression:
+			Train acc: 0.9598393574297188
+			Test  acc: 0.764
